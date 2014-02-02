@@ -15,10 +15,6 @@ h1{
 
 }
 
-div{
-	margin-left:200px;
-}
-
 /*may not be required*/
 
 .banner{
@@ -26,11 +22,12 @@ div{
 	background:#333;
 	margin:10px;
 }
-.image{
-	border:1px solid #000000;
-	float:left;
-	margin:10px;
+img{
+	width:70%;
+	height:auto;
+	margin-left:25px;
 }
+
 
 /* Show Grid */
 .showgrid {
