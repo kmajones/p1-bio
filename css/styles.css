@@ -1,11 +1,10 @@
 /* Your Website Styles */
 body{
 	background: orange;
-	width:300px;
 	font-size:12px;
 	font-family:verdana;
-	margin-left:100px;
 	margin-top:100px;
+	display:block;
 }
 h1{
 	font-color:#000;
@@ -18,9 +17,13 @@ h1{
 /*may not be required*/
 
 .banner{
-	width:300px;
+	position:absolute;
+	top:0px;
+	left:453px;
+	width:1000px;
+	height:20px;
 	background:#333;
-	margin:10px;
+	
 }
 img{
 	width:70%;
@@ -28,6 +31,14 @@ img{
 	margin-left:25px;
 }
 
+.bar{
+	position: absolute;
+	left: 453px;
+	background:#666;
+	width:1000px;
+	height:50px;
+	text-align:center;
+}
 
 /* Show Grid */
 .showgrid {
