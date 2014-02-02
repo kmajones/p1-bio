@@ -1,10 +1,38 @@
 /* Your Website Styles */
 body{
 	background: orange;
+	width:300px;
+	font-size:12px;
+	font-family:verdana;
+	margin-left:100px;
+	margin-top:100px;
+}
+h1{
+	font-color:#000;
+	border:2px solid #333;
+	font-size:3em;
+	text-align: center;
+
 }
 
+div{
+	margin-left:200px;
+}
+
+/*may not be required*/
+
+.banner{
+	width:300px;
+	background:#333;
+	margin:10px;
+}
+.image{
+	border:1px solid #000000;
+	float:left;
+	margin:10px;
+}
 
 /* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+	background: #ffffff repeat-y;
 }
