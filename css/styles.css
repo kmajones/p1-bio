@@ -15,10 +15,26 @@ h1{
 }
 div{
 	background: #fff;
+	width:1000px;
+
+	}
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
 }
 
 /*may not be required*/
 
+.grid_3{
+	padding:0px;
+	margin:0 1px 0 0;
+}
+.grid_9{
+	padding:0px;
+	margin:0 15px 0 0;
+}
 .banner{
 	position:absolute;
 	top:0px;
@@ -43,7 +59,7 @@ img{
 	text-align:center;
 }
 
-
+/*
 nav{
   height: 25px;
   width:1000px;
