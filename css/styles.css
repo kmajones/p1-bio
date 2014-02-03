@@ -1,17 +1,20 @@
 /* Your Website Styles */
 body{
-	background: orange;
+	background-image:url(../img/stardust.png);
 	font-size:12px;
 	font-family:verdana;
 	margin-top:100px;
 	display:block;
+	
 }
 h1{
 	font-color:#000;
-	border:2px solid #333;
 	font-size:3em;
 	text-align: center;
 
+}
+div{
+	background: #fff;
 }
 
 /*may not be required*/
@@ -39,6 +42,49 @@ img{
 	height:50px;
 	text-align:center;
 }
+
+
+nav{
+  height: 25px;
+  width:1000px;
+  }
+
+ul{
+  padding:0;
+  
+}
+
+li{
+  color:#666;
+  background: #000;
+  padding:10px;
+  display:inline;
+  list-style: none;
+
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  border:1px solid teal;
+  color:#fff;
+  background: #54a2ba;
+  height:25px;
+  text-decoration: none;
+}
+a:focus{
+  border:1px dotted #000;
+}
+a:hover{
+  background: #2f2dad;
+  border: 1px double white;
+  margin-left:4px;
+}
+
+a:active{
+  background: black;
+}
+*/
 
 /* Show Grid */
 .showgrid {
